@@ -4,5 +4,4 @@ title: "Curriculum Vitae"
 permalink: /cv/
 ---
 
-# Skills
-(Fill this section with your skill-based CV content)
+_Replace this with a detailed, skill‑based CV once you're ready._

@@ -1,28 +1,36 @@
 ---
-layout: home
-title: "エルヌール・カルメトフ"
-excerpt: "ロボティクス＆エンジニアリングプロジェクト"
+layout: default
+title: "ホーム"
+permalink: /ja/
 ---
 
-### 京都先端科学大学 工学部 学生
+<a class="lang-switch" href="/">English</a>
 
-国際ロボティクス・エンジニアリング専攻の学生です。
-
-![ロボットレンダー](/assets/images/hero-render.png){: .img-fluid }
+<div class="hero">
+  <img src="https://placehold.co/600x400?text=レンダー画像" alt="Robot Render">
+  <div class="hero-text">
+    <h2>京都先端科学大学 工学部 学生</h2>
+    <p>ここに自己紹介文のサンプルが入ります。自由に日本語のプロフィールや画像を差し替えてください。</p>
+  </div>
+</div>
 
 ## 主なスキル
-**機械・ロボティクス**  
-<span class="skill-tag">CAD: Creo, Fusion 360</span>
-<span class="skill-tag">加工 & プロトタイピング</span>  
-**プログラミング**  
-<span class="skill-tag">C / C++ / Java</span>  
-**言語**  
-<span class="skill-tag">英語 – 流暢</span>
-<span class="skill-tag">日本語 – JLPT N3</span>
+<span class="skill-tag">CAD (Creo, Fusion 360)</span>
+<span class="skill-tag">C / C++ / Java</span>
+<span class="skill-tag">MATLAB</span>
+<span class="skill-tag">組込みシステム</span>
+<span class="skill-tag">英語 (流暢)</span>
+<span class="skill-tag">日本語 (JLPT N3)</span>
 
-## プロジェクト
+## プロジェクトスナップショット
+<div class="project-grid">
 {% for project in site.data.projects %}
-### [{{ project.title }}]({{ project.url }})
-{{ project.description }}
-
+  <a class="project-card" href="{{ project.url }}">
+    <img src="https://placehold.co/600x340?text={{ project.title | uri_escape }}" alt="">
+    <div class="body">
+      <h3>{{ project.title }}</h3>
+      <p>{{ project.description }}</p>
+    </div>
+  </a>
 {% endfor %}
+</div>
