@@ -1,0 +1,24 @@
+title: "Elnur Khalmetov Portfolio"
+description: "Engineering projects and robots"
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+minimal_mistakes_skin: "default"
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-seo-tag
+
+navigation:
+  - title: "Home"
+    url: "/"
+  - title: "Projects"
+    url: "/#projects"
+  - title: "CV"
+    url: "/cv/"
+  - title: "日本語"
+    url: "/ja/"
+
+social:
+  - title: "LinkedIn"
+    url: "https://www.linkedin.com/in/elnur-khalmetov-49b811350"
+  - title: "Email"
+    url: "mailto:halmetovelnur@gmail.com"

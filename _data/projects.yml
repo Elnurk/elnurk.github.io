@@ -1,0 +1,4 @@
+- id: worldskills
+  title: "WorldSkills Robot"
+  description: "Autonomous robot for WorldSkills Mobile Robotics Championship."
+  url: "/projects/worldskills/"
