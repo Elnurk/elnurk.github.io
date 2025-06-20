@@ -1,6 +1,6 @@
 title: "Elnur Khalmetov Portfolio"
 description: "Robotics & Engineering Projects"
-remote_theme: "mmistakes/minimal-mistakes@4.24"
+remote_theme: "mmistakes/minimal-mistakes@4.20"
 minimal_mistakes_skin: "default"
 plugins:
   - jekyll-remote-theme
