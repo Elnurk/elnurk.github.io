@@ -7,7 +7,7 @@ body{font-family:system-ui,Helvetica,Arial,sans-serif;background:var(--bg);color
 .navbar a:hover{color:var(--accent);}
 .nav-left a{margin-right:1.5rem;}
 .nav-left a:last-child{margin-right:0;}
-.lang-switch a{font-weight:500;}
+.lang-switch a{font-weight:400;}
 .lang-switch a.active{font-weight:700;}
 .hero{height:320px;display:flex;justify-content:center;align-items:center;background:url('/assets/images/placeholder.png') center/cover no-repeat;color:#fff;text-shadow:0 2px 4px rgba(0,0,0,.5);}
 .hero h1{font-size:3rem;font-weight:800;}
@@ -23,10 +23,8 @@ body{font-family:system-ui,Helvetica,Arial,sans-serif;background:var(--bg);color
 .card-body{padding:1rem;}
 .card-body h3{font-size:1.05rem;margin-bottom:.4rem;color:var(--accent);}
 .card-body p{font-size:.85rem;color:#555;line-height:1.35;}
-footer{background:#fff;border-top:1px solid #dee2e6;padding:1rem 2rem;text-align:center;font-size:.9rem;}
-footer a{color:var(--accent);text-decoration:none;margin:0 .4rem;}
+footer{background:#fff;border-top:1px solid #dee2e6;padding:1rem 2rem;text-align:center;font-size:.9rem;display:flex;justify-content:center;flex-wrap:wrap;gap:.3rem;}
+footer a{color:var(--accent);text-decoration:none;margin:0 .2rem;}
 footer a:hover{text-decoration:underline;}
 .footer-title{font-weight:600;font-size:1rem;margin-right:.4rem;color:var(--text);}
-.contact-icon{margin-right:.2rem;font-size:1rem;}
-
-.contact-icon-img{width:1em;height:1em;vertical-align:-0.15em;margin-right:.25rem;}
+.contact-icon-svg{width:1em;height:1em;vertical-align:-0.15em;margin-right:.25rem;fill:var(--accent);}
