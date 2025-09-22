@@ -28,3 +28,7 @@ footer a{color:var(--accent);text-decoration:none;margin:0 .2rem;}
 footer a:hover{text-decoration:underline;}
 .footer-title{font-weight:600;font-size:1rem;margin-right:.4rem;color:var(--text);}
 .contact-icon-svg{width:1rem;height:1rem;vertical-align:-0.15rem;margin-right:.2rem;fill:var(--accent);}
+
+/* custom overrides */
+.card{text-decoration:none;color:inherit;}
+footer{align-items:center;}
